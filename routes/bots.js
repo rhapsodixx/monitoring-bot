@@ -6,7 +6,7 @@ var router = express.Router();
 var telegramToken = '307103339:AAHYmSkL-fF10kZC7va99dzOMVU5grASXwc';
 
 // Setup telegram bot library
-var bot = new TelegramBot(token, { polling: false });
+var bot = new TelegramBot(telegramToken, { polling: false });
 console.log('bot server started...');
 
 // Any kind of message
